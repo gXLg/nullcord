@@ -8,7 +8,6 @@
     "lib": "lib"
   },
   "dependencies": {
-    "gxlg-asyncdb": "^1.0.1",
     "gxlg-utils": "^1.1.0",
     "ws": "^8.11.0"
   },
@@ -17,7 +16,6 @@
   },
   "author": "gXLg",
   "license": "MIT",
-  "devDependencies": {},
   "keywords": [
     "discord",
     "library",
