@@ -1,0 +1,34 @@
+{
+  "name": "nullcord",
+  "version": "1.0.0",
+  "description": "A lightweight discord bot library",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "gxlg-asyncdb": "^1.0.1",
+    "gxlg-utils": "^1.1.0",
+    "ws": "^8.11.0"
+  },
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "gXLg",
+  "license": "MIT",
+  "devDependencies": {},
+  "keywords": [
+    "discord",
+    "library",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gXLg/nullcord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gXLg/nullcord/issues"
+  },
+  "homepage": "https://github.com/gXLg/nullcord#readme"
+}
