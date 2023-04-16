@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "gxlg-utils": "^1.1.1",
+    "gxlg-utils": "^1.1.2",
     "ws": "^8.11.0"
   },
   "scripts": {
