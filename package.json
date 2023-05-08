@@ -1,6 +1,6 @@
 {
   "name": "nullcord",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "A lightweight discord bot library",
   "main": "index.js",
   "directories": {
