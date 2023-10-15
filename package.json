@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "gxlg-utils": "^1.1.2",
-    "ws": "^8.11.0"
+    "ws": "^8.14.2"
   },
   "scripts": {
     "test": "node bot.js"
