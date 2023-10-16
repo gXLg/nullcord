@@ -5,7 +5,13 @@ This lib is for private use, using in production is not recommended.
 
 Plans are to make the lib production ready with v3.0
 
-Right now have got some untested things, which will probably change:
+Right now have got some new things, which will probably change:
+* Logging
+* Errors prevention
+* No internet request stacking
+
+Some features which will stay, but no promise
+about keeping their structure:
 * Sharding
 * Endpoints objects for easier and more intuitive use
 * Constants

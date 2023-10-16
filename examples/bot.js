@@ -7,24 +7,34 @@
   }
 
   const fs = require("fs");
-  const token = fs.readFileSync(".token", "UTF-8");
+  const token = fs.readFileSync(".token", "UTF-8").trim();
 
   const ds = require("..");
   const bot = new ds.Bot(token);
 
   const me = await bot.user();
-  console.log("Logging in as " + me.username + "...");
+  bot.logger.emit("info", "Logging in as " + me.username + "...");
 
-  const shards = new Set();
   bot.events["READY"] = async data => {
-    const [shard, count] = data.shard[0];
 
-    console.log("Bot logged in on shard [#" + shard + "]!");
-    shards.add(shard);
+    // in v2.3.0: L(p)oggers :o
+    bot.logger.emit("sinfo", data.shard[0], "Got ready!");
 
     // execute this when all shards ready
-    if(shards.size == count){
-      // in v2.0.0: shards!
+    if(bot.ready()){
+
+      bot.setStatus({
+        "status": "online",
+        "since": 0,
+        "afk": false,
+        "activities": [{
+          "name": "in your eyes",
+          // constants
+          "type": ds.consts.activity_types.Watching
+        }]
+      });
+
+      /* in v2.0.0: shards!
       for(let i = 0; i < count; i ++){
         bot.setStatus({
           "status" : "online",
@@ -35,7 +45,7 @@
             "type" : 3
           }]
         }, i);
-      }
+      } */
 
       /* in v1.8.5:
       await bot.sendMessage("751448682393763856", {
@@ -69,9 +79,9 @@
   // intents = 0
   bot.login(0);
 
-  console.log(await bot.guildCommands.post("751448682393763850", {
+  await bot.guildCommands.post("751448682393763850", {
     "name": "badge",
     "description": "Use this command to re-activate active developer badge"
-  }));
+  });
 
 })();
