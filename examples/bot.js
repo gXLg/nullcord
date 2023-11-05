@@ -12,12 +12,15 @@
   const ds = require("..");
   const bot = new ds.Bot(token);
 
-  const me = await bot.user();
+  // after v2.4:
+  const me = await bot.me.getUser();
+  // before v2.4:
+  //const me = await bot.user();
   bot.logger.emit("info", "Logging in as " + me.username + "...");
 
   bot.events["READY"] = async data => {
 
-    // in v2.3.0: L(p)oggers :o
+    // in v2.3.0: Loggers (poggers) :o
     bot.logger.emit("sinfo", data.shard[0], "Got ready!");
 
     // execute this when all shards ready
@@ -33,6 +36,8 @@
           "type": ds.consts.activity_types.Watching
         }]
       });
+
+      bot.logger.emit("info", "All shards activated");
 
       /* in v2.0.0: shards!
       for(let i = 0; i < count; i ++){
@@ -79,9 +84,17 @@
   // intents = 0
   bot.login(0);
 
-  await bot.guildCommands.post("751448682393763850", {
+  const res = await bot.guildCommands.post("751448682393763850", {
     "name": "badge",
     "description": "Use this command to re-activate active developer badge"
+  });
+  if(!bot.errors.status(res)){
+    bot.logger.emit("warn", "Could not post command:", res);
+  }
+
+  ds.utils.sigint(async () => {
+    bot.logger.emit("info", "Ctrl-C pressed");
+    await bot.destroy();
   });
 
 })();
