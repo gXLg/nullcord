@@ -87,13 +87,13 @@ Some interesting facts all around nullcord:
 * The name obviously comes from my nickname `/dev/null` and `discord`
 (it could have been `gxlg-cord`, glad it turned out this way)
 * This lib was completely developed on my phone
-("developed on the way" just got a new meaning, huh?)
-* The internet at my house was so bad, that it created a perfect
+("cross-platform development" just got a new meaning, huh?)
+* The internet at my house was/is so bad, that it created a perfect
 environment for debugging connection related issues
 * I developed this while listening to breakcore and drinking
-69 liters of coffee a night (I am broke now, please help)
+69 liters of coffee a night (I am broke and have an addiction now, please help)
 * This library got 2 of my testing bots banned, but it's safe
 to use now, I swear!
 * If there would have been an award for the worst structured documentation
-of rate limits, discord would surely receive it. I am so glad, I am through
-with ths, it was a nightmare!
+of rate limits, discord would surely receive it. I am so happy, I am through
+with this, it was a nightmare!
