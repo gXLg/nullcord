@@ -1,13 +1,11 @@
-<img align="right" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height=200>
 <div>
-<br>
+<img align="left" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" width="100px">
 <h1>nullcord</h1>
 
 Lightweight custom discord bot library developed by `/dev/null`.
-
 Written in JavaScript with only few dependencies.
 </div>
-<br clear="right">
+<br clear="left">
 
 
 
