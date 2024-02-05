@@ -10,13 +10,16 @@ Plans are to make the lib production ready with v3.0
 (rewriting phase started).
 
 Rewriting:
-* Logging -> internal event based
-* Better networking request structure
+* Logging -> internal event based (done)
+* Better networking request structure (done)
+* SigInt handler -> `gxlg-utils` (done)
+* Docs! ('-';)
 
 This features have been extensively tested in latest releases:
 * Logging
 * Errors prevention
 * No internet request stacking/WebSocket resurrection
+* Deadlocks have been fixed
 
 Some features which will stay, but no promise
 about keeping their structure:
@@ -34,7 +37,8 @@ is a pretty heavy operation, which will not be added
 
 FYI: Even it being not production ready, the lib is stable and is working perfectly,
 so if you really want to - you can use the lib and your bot will not break :)
-(as of now :smirk:)
+The downside of this is no guaranteed structure to be kept and some breaking changes are
+to be awaited.
 
 # Installation
 
@@ -84,16 +88,15 @@ version of the Readme and commits.
 * My project [coc-bot](https://github.com/gXLg/coc-bot) uses an
 up-to-date version of nullcord, the testing of nullcord have been
 done mainly through this repo
-* Also check out `gxlg-utils` and `gxlg-asyncdb` which are used in this lib
+* Also check out `gxlg-utils` which is used in this lib
 
 # For fun
 Some interesting facts all around nullcord:
 * The name obviously comes from my nickname `/dev/null` and `discord`
-(it could have been `gxlg-cord`, glad it turned out this way)
 * This lib was completely developed on my phone
-("cross-platform development" just got a new meaning, huh?)
+("monile developer" just got a new meaning, huh?)
 * The internet at my house was/is so bad, that it created a perfect
-environment for debugging connection related issues
+environment for debugging connectivity related issues
 * I developed this while listening to breakcore and drinking
 69 liters of coffee a night (I am broke and have an addiction now, please help)
 * This library got 2 of my testing bots banned, but it's safe

@@ -9,8 +9,14 @@
   const fs = require("fs");
   const token = fs.readFileSync(".token", "UTF-8").trim();
 
+  const { sigint } = require("gxlg-utils");
+
+  // replace ".." with "nullcord" in actual environment
   const ds = require("..");
-  const bot = new ds.Bot(token);
+  // after v2.6:
+  const bot = new ds.Bot(token, { "internal": true});
+  // before v2.6:
+  //const bot = new ds.Bot(token);
 
   // after v2.4:
   const me = await bot.me.getUser();
@@ -92,7 +98,12 @@
     bot.logger.emit("warn", "Could not post command:", res);
   }
 
-  ds.utils.sigint(async () => {
+  // removed in v2.6 -> gxlg-utils
+  /*ds.utils.sigint(async () => {
+    bot.logger.emit("info", "Ctrl-C pressed");
+    await bot.destroy();
+  });*/
+  sigint(async () => {
     bot.logger.emit("info", "Ctrl-C pressed");
     await bot.destroy();
   });
