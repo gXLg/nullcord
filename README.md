@@ -94,7 +94,7 @@ done mainly through this repo
 Some interesting facts all around nullcord:
 * The name obviously comes from my nickname `/dev/null` and `discord`
 * This lib was completely developed on my phone
-("monile developer" just got a new meaning, huh?)
+("mobile developer" just got a new meaning, huh?)
 * The internet at my house was/is so bad, that it created a perfect
 environment for debugging connectivity related issues
 * I developed this while listening to breakcore and drinking
