@@ -1,9 +1,9 @@
 <div>
-<img align="right" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="64">
+<img align="left" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="64">
 <h1>nullcord</h1>
 Lightweight custom discord bot library developed by <code>/dev/null</code>.
 </div>
-<br clear="right">
+<br clear="left">
 <br>
 This lib is for private use, using in production is (yet) not recommended.
 Plans are to make the lib production ready with v3.0
