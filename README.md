@@ -1,13 +1,23 @@
-# nullcord
+<img align="right" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height=200>
+<div>
+<br>
+<h1>nullcord</h1>
+
 Lightweight custom discord bot library developed by `/dev/null`.
 
+Written in JavaScript with only few dependencies.
+</div>
+<br clear="right">
+
+
+
 This lib is for private use, using in production is (yet) not recommended.
-
 Plans are to make the lib production ready with v3.0
-(debug phase almost finished).
+(rewriting phase started).
 
-Right now have got some new things, which will probably change:
-* (nothing here)
+Rewriting:
+* Logging -> internal event based
+* Better networking request structure
 
 This features have been extensively tested in latest releases:
 * Logging
