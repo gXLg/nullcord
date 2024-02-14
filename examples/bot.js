@@ -12,9 +12,9 @@
   const { sigint } = require("gxlg-utils");
 
   // replace ".." with "nullcord" in actual environment
-  const ds = require("..");
+  const { Bot, utils, consts } = require("..");
   // after v2.6:
-  const bot = new ds.Bot(token, { "internal": true});
+  const bot = new Bot(token, { "internal": true});
   // before v2.6:
   //const bot = new ds.Bot(token);
 
@@ -39,7 +39,7 @@
         "activities": [{
           "name": "in your eyes",
           // constants
-          "type": ds.consts.activity_types.Watching
+          "type": consts.activity_types.Watching
         }]
       });
 
@@ -88,21 +88,23 @@
   };
 
   // intents = 0
-  bot.login(0);
+  //bot.login(0);
+  // in v2.6.1:
+  bot.login(utils.autoIntents({ bot }));
 
   const res = await bot.guildCommands.post("751448682393763850", {
     "name": "badge",
     "description": "Use this command to re-activate active developer badge"
   });
-  if(!bot.errors.status(res)){
-    bot.logger.emit("warn", "Could not post command:", res);
+  // before v2.6.1
+  //if(!bot.errors.status(res)){
+  // after v2.6.1
+  if(!utils.errorStatus(res)){
+    bot.logger.emit("error", "Could not post command:\n", res);
   }
 
   // removed in v2.6 -> gxlg-utils
-  /*ds.utils.sigint(async () => {
-    bot.logger.emit("info", "Ctrl-C pressed");
-    await bot.destroy();
-  });*/
+  //ds.utils.sigint(async () => {
   sigint(async () => {
     bot.logger.emit("info", "Ctrl-C pressed");
     await bot.destroy();

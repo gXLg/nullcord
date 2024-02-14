@@ -11,6 +11,7 @@ Plans are to make the lib production ready with v3.0
 
 Rewriting:
 * Logging -> internal event based (done)
+* AutoIntents (done)
 * Better networking request structure (done)
 * SigInt handler -> `gxlg-utils` (done)
 * Docs! ('-';)
