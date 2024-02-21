@@ -1,3 +1,3 @@
 # Utils
-Here I showcase useful utils
+Here I showcase usefull utils
 built into nullcord and how to use them.
