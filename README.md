@@ -1,7 +1,5 @@
 <div>
-<kbd>
 <img align="left" margin-topsrc="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="100">
-</kbd>
 <h1>nullcord</h1>
 Lightweight discord library by <code>/dev/null</code>.
 </div>
