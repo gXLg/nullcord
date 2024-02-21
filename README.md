@@ -1,10 +1,10 @@
-<div>
 <kbd>
+<div>
 <img align="left" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="100">
 <h1>nullcord</h1>
-Lightweight discord library by <code>/dev/null</code>.
-</kbd>
+Lightweight discord library developed by <code>/dev/null</code>.
 </div>
+</kbd>
 <br clear="left">
 <br>
 This lib is for private use, using in production is (yet) not recommended.
