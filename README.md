@@ -14,6 +14,7 @@ Rewriting:
 * AutoIntents (done)
 * Better networking request structure (done)
 * SigInt handler -> `gxlg-utils` (done)
+* Search Options parameter (done)
 * Docs! ('-';)
 
 This features have been extensively tested in latest releases:
@@ -93,6 +94,7 @@ done mainly through this repo
 
 # For fun
 Some interesting facts all around nullcord:
+* The name should always be written in lowercase
 * The name obviously comes from my nickname `/dev/null` and `discord`
 * This lib was completely developed on my phone
 ("mobile developer" just got a new meaning, huh?)
