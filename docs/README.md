@@ -45,11 +45,11 @@ of the `nullcord` discord bot library. Please notify me
 about any errors or inconsistencies in the issues.
 
 The documentation is split into multiple parts like that:
-* [Discord](00 - discord.md) - basic information about discord
+* [Discord](00_discord.md) - basic information about discord
 and their way of handling things
-* [Initialization](01 - init.md) - bot setup
-* [Logging](02 - logging.md) - explanation about
+* [Initialization](01_init.md) - bot setup
+* [Logging](02_logging.md) - explanation about
 the logging system of nullcord
-* [Events](03 - events.md) - receiving events
-* [API](04 - api.md) - sending requests to discord
-* [Utils](05 - utils.md) - using the included utils
+* [Events](03_events.md) - receiving events
+* [API](04_api.md) - sending requests to discord
+* [Utils](05_utils.md) - using the included utils
