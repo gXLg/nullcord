@@ -1,9 +1,7 @@
 <div>
+<img margin-top="10px" align="left" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="100">
 <h1>nullcord</h1>
-<kbd>
-<img align="left" src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="100">
 Lightweight discord library developed by <code>/dev/null</code>.
-</kbd>
 </div>
 <br clear="left">
 <br>
