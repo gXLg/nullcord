@@ -13,7 +13,9 @@ npm install nullcord
 ```
 either globally or locally in your project.
 You can as well just download it direclty
-from GitHub, but this is not recommended.
+from GitHub, but this is not recommended
+since some updates can be in GitHub
+before I test them and publish to npm.
 
 ## nullcord
 `nullcord` is a lightweight discord bot library
@@ -53,3 +55,6 @@ the logging system of nullcord
 * [Events](03_events.md) - receiving events
 * [API](04_api.md) - sending requests to discord
 * [Utils](05_utils.md) - using the included utils
+
+# Changelog
+(not yet released)
