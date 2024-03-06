@@ -34,7 +34,8 @@ Docs writing is in progress, you can check out [/docs](docs).
 * My project [coc-bot](https://github.com/gXLg/coc-bot) uses an
 up-to-date version of nullcord, the testing of nullcord have been
 done mainly through this repo
-* Also check out `gxlg-utils` which is used in this lib
+* Also check out [gxlg-utils](https://github.com/gXLg/gxlg-utils) which is used in this lib
+* First sketches of nullcord are available in an old [hackaton attempt](https://github.com/gXLg/documantic-hackaton)
 
 # For fun
 Some interesting facts all around nullcord:
