@@ -18,16 +18,21 @@
   // before v2.6:
   //const bot = new ds.Bot(token);
 
-  // after v2.4:
-  const me = await bot.me.getUser();
   // before v2.4:
   //const me = await bot.user();
-  bot.logger.emit("info", "Logging in as " + me.username + "...");
+  // after v2.4:
+  const me = await bot.me.getUser();
+  // before v3.0.0
+  //bot.logger.emit("info", "Logging in as " + me.username + "...");
+  // after v3.0.0
+  bot.logger.info("Logging in as " + me.username + "...");
 
   bot.events["READY"] = async data => {
 
     // in v2.3.0: Loggers (poggers) :o
-    bot.logger.emit("sinfo", data.shard[0], "Got ready!");
+    //bot.logger.emit("sinfo", data.shard[0], "Got ready!");
+    // in v3.0.0: Finally normal loggers ^.^
+    bot.logger.sinfo(data.shard[0], "Got ready!");
 
     // execute this when all shards ready
     if(bot.ready()){
@@ -43,7 +48,8 @@
         }]
       });
 
-      bot.logger.emit("info", "All shards activated");
+      //bot.logger.emit("info", "All shards activated");
+      bot.logger.info("All shards activated");
 
       /* in v2.0.0: shards!
       for(let i = 0; i < count; i ++){
@@ -96,17 +102,24 @@
     "name": "badge",
     "description": "Use this command to re-activate active developer badge"
   });
+
   // before v2.6.1
-  //if(!bot.errors.status(res)){
+  //if (!bot.errors.status(res)) {
   // after v2.6.1
-  if(!utils.errorStatus(res)){
-    bot.logger.emit("error", "Could not post command:\n", res);
+  //if (!utils.errorStatus(res)) {
+  // after v3.0.0
+  if (utils.errorStatus(res)) {
+    // befpre v3.0.0
+    //bot.logger.emit("error", "Could not post command:\n", res);
+    // after v3.0.0
+    bot.logger.error("Could not post command:\n", res);
   }
 
   // removed in v2.6 -> gxlg-utils
   //ds.utils.sigint(async () => {
   sigint(async () => {
-    bot.logger.emit("info", "Ctrl-C pressed");
+    //bot.logger.emit("info", "Ctrl-C pressed");
+    bot.logger.info("Ctrl-C pressed");
     await bot.destroy();
   });
 

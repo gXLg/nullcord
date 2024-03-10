@@ -17,6 +17,12 @@ Rewriting:
 * Search Options parameter (done)
 * Docs! ('-';)
 
+:warning: Current repository is preparing
+for the upcoming v3.0 update.
+Some information here is for not-yet-released
+features/functionality, for the released description
+refer to release tags.
+
 # Installation
 
 ```

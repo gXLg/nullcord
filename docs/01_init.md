@@ -36,9 +36,10 @@ find [here](https://discord.com/developers/applications)
 2. `options: Object` - including following parameters:
   * `logger: EventEmitter` - more about logging in
   [Logging](02_logging.md)
-  * `internal: Object|'true'` - an object to look up
-  what internal events are to be logged or `true` to
-  use a prebuilt internal logger
+  * `internal: Object|'null'|'true'` - an object to look up
+  what internal events are to be logged, `true` to
+  use a prebuilt internal logger or you can use `null` or
+  just leave out this option to disable logging of internal event
 
 ## methods
 
