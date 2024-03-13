@@ -38,16 +38,21 @@ Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
 # Contribution
 List of contributors (special thanks):
 
+<!--
+    </td>
+    <td>
+    </th>
+    <th>
+-->
+
 <table width="500px">
   <tr>
-    <th>:heart:</th>
-    <th>Name</th>
+    <th>:heart:
+    Name</th>
     <th>Contributions</th></tr>
   <tr>
     <td valign=center>
       <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle">
-    </td>
-    <td>
       <a href="https://github.com/gXLg">/dev/null</a>
     </td>
     <td>Creator and owner</td>
@@ -55,8 +60,6 @@ List of contributors (special thanks):
   <tr>
     <td valign=center>
       <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=32&w=32&mask=circle">
-    </td>
-    <td>
       <a href="https://github.com/flp5">flp5</a>
     </td>
     <td>Advices about utils and logging</td>
