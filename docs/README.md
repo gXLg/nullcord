@@ -55,6 +55,7 @@ the logging system of nullcord
 * [Events](03_events.md) - receiving events
 * [API](04_api.md) - sending requests to discord
 * [Utils](05_utils.md) - using the included utils
+* [Cache](06_cache.md) - using the benefits of internal caching
 
 # Changelog
 (not yet released)

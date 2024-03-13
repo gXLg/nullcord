@@ -21,7 +21,9 @@
   // before v2.4:
   //const me = await bot.user();
   // after v2.4:
-  const me = await bot.me.getUser();
+  //const me = await bot.me.getUser();
+  // after v3.0.0:
+  const me = await bot.self.getUser();
   // before v3.0.0
   //bot.logger.emit("info", "Logging in as " + me.username + "...");
   // after v3.0.0

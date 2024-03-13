@@ -13,6 +13,7 @@ Rewriting:
 * Better networking request structure (done)
 * SigInt handler -> `gxlg-utils` (done)
 * Search Options parameter (done)
+* Unexpectedly found an even better structure for rate limits! -> rewrite! (done)
 * Docs! ('-';)
 
 :warning: Current repository is preparing
@@ -34,14 +35,14 @@ already now would be a waste of time.
 
 Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
 
-# Related projects
+# Related Projects
 * My project [<kbd>coc-bot</kbd>](https://github.com/gXLg/coc-bot) uses an
 up-to-date version of nullcord, the testing of nullcord have been
 done mainly through this repo
 * Also check out [<kbd>gxlg-utils</kbd>](https://github.com/gXLg/gxlg-utils) which is used in this lib
 * First sketches of nullcord are available in an old [<kbd>hackaton attempt</kbd>](https://github.com/gXLg/documantic-hackaton)
 
-# For fun
+# For Fun
 Some interesting facts all around nullcord:
 * The name should always be written in lowercase
 * The name obviously comes from my nickname `/dev/null` and `discord`
@@ -56,3 +57,4 @@ to use now, I swear!
 * If there would have been an award for the worst structured documentation
 of rate limits, discord would surely receive it. I am so happy, I am through
 with this, it was a nightmare!
+* The logo has been made in Paint in under 5 minutes :D
