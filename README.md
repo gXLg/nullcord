@@ -45,7 +45,7 @@ List of contributors (special thanks):
     <th>Contributions</th></tr>
   <tr>
     <td>
-      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle">
+      <img align=bottom src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle">
     </td>
     <td>
       <a href="https://github.com/gXLg">/dev/null</a>
@@ -53,8 +53,8 @@ List of contributors (special thanks):
     <td>Creator and owner</td>
   </tr>
   <tr>
-    <td border-right=none>
-      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=32&w=32&mask=circle">
+    <td>
+      <img align=bottom src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=32&w=32&mask=circle">
     </td>
     <td>
       <a href="https://github.com/flp5">flp5</a>
