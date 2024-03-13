@@ -45,14 +45,14 @@ List of contributors (special thanks):
     <th>Contributions</th>
   </tr>
   <tr>
-    <td width="500px">
+    <td width="500px" align="center">
       <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle">
       <a href="https://github.com/gXLg">/dev/null</a>
     </td>
     <td>Creator and owner</td>
   </tr>
   <tr>
-    <td width="500px">
+    <td width="500px" align="center">
       <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=32&w=32&mask=circle">
       <a href="https://github.com/flp5">flp5</a>
     </td>
