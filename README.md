@@ -38,12 +38,12 @@ Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
 # Contribution
 List of contributors (special thanks):
 
-<table>
+<table width="500px">
   <tr>
     <th>&nbsp;&nbsp;Name&nbsp;&nbsp;</th>
     <th>&nbsp;&nbsp;Contributions&nbsp;&nbsp;</th></tr>
   <tr>
-    <td width="100px">
+    <td width="200px">
       <img align=left src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=20&w=20&mask=circle">
       <a href="https://github.com/gXLg">/dev/null</a>
     </td>
