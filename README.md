@@ -46,8 +46,8 @@ List of contributors (special thanks):
   <tr>
     <td>
       <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=20&w=20&mask=circle">
-    <td>
     </td>
+    <td>
       <a href="https://github.com/gXLg">/dev/null</a>
     </td>
     <td>Creator and owner</td>
@@ -55,8 +55,8 @@ List of contributors (special thanks):
   <tr>
     <td>
       <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=20&w=20&mask=circle">
-    <td>
     </td>
+    <td>
       <a href="https://github.com/flp5">flp5</a>
     </td>
     <td>Advices about utils and logging</td>
