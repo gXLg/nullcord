@@ -40,8 +40,8 @@ List of contributors (special thanks):
 
 |Name|Contributions|
 |--|--|
-|<img align=left src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=60&w=60&fit=cover&mask=circle&maxage=7d">[/dev/null](https://github.com/gXLg)|Creator and owner|
-|<img align=left src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=60&w=60&fit=cover&mask=circle&maxage=7d">[flp5](https://github.com/flp5)|Advices about utils and logging|
+|<img align=left src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=20&w=20&fit=cover&mask=circle&maxage=7d">[/dev/null](https://github.com/gXLg)|Creator and owner|
+|<img align=left src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=20&w=20&fit=cover&mask=circle&maxage=7d">[flp5](https://github.com/flp5)|Advices about utils and logging|
 
 When contributing, please first open an issue and contact me.
 Sometimes I may have uncommited changes in my local repo,
