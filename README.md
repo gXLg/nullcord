@@ -38,27 +38,10 @@ Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
 # Contribution
 List of contributors (special thanks):
 
-
-<table>
-  <tr>
-    <th width="50%">Name</th>
-    <th>Contributions</th>
-  </tr>
-  <tr>
-    <td width="50%" align=center>
-      <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle">
-      <a href="https://github.com/gXLg">/dev/null</a>
-    </td>
-    <td>Creator and owner</td>
-  </tr>
-  <tr>
-    <td width="50%" align=center>
-      <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=32&w=32&mask=circle">
-      <a href="https://github.com/flp5">flp5</a>
-    </td>
-    <td>Advices about utils and logging</td>
-  </tr>
-</table>
+| User | Contributions |
+|--|--|
+| <a title="/dev/null" href="https://github.com/gXLg"><img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873&h=64&mask=circle"></a> | Creator and owner |
+| <a title="flp5" href="https://github.com/flp5"><img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271&h=64&mask=circle"></a> | Advices about utils and logging |
 
 When contributing, please first open an issue and contact me.
 Sometimes I may have uncommited changes in my local repo,
