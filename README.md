@@ -40,8 +40,9 @@ List of contributors (special thanks):
 
 <table width="500px">
   <tr>
-    <th>&nbsp;&nbsp;Name&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;Contributions&nbsp;&nbsp;</th></tr>
+    <th>:heart:</th>
+    <th>Name</th>
+    <th>Contributions</th></tr>
   <tr>
     <td>
       <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=20&w=20&mask=circle">
