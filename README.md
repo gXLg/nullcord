@@ -38,10 +38,25 @@ Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
 # Contribution
 List of contributors (special thanks):
 
-| Name | Contributions |
-|--|--|
-| [/dev/null](https://github.com/gXLg)<img align=right src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=20&w=20&mask=circle"> | Creator and owner |
-| [flp5](https://github.com/flp5)<img align=right src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=20&w=20&mask=circle"> | Advices about utils and logging |
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Contributions</th></tr>
+  <tr>
+    <td>
+      [/dev/null](https://github.com/gXLg)
+      <img align=right src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=20&w=20&mask=circle">
+    </td>
+    <td>Creator and owner</td>
+  </tr>
+  <tr>
+    <td>
+      [flp5](https://github.com/flp5)
+      <img align=right src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=20&w=20&mask=circle">
+    </td>
+    <td>Advices about utils and logging</td>
+  </tr>
+</table>
 
 When contributing, please first open an issue and contact me.
 Sometimes I may have uncommited changes in my local repo,
