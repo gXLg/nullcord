@@ -43,7 +43,7 @@ List of contributors (special thanks):
     <th>&nbsp;&nbsp;Name&nbsp;&nbsp;</th>
     <th>&nbsp;&nbsp;Contributions&nbsp;&nbsp;</th></tr>
   <tr>
-    <td>
+    <td width="100px">
       <img align=left src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=20&w=20&mask=circle">
       <a href="https://github.com/gXLg">/dev/null</a>
     </td>
