@@ -53,7 +53,7 @@ List of contributors (special thanks):
     <td>Creator and owner</td>
   </tr>
   <tr>
-    <td>
+    <td border=none>
       <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=32&w=32&mask=circle">
     </td>
     <td>
