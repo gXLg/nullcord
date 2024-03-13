@@ -41,10 +41,6 @@ List of contributors (special thanks):
 
 <table>
   <tr>
-    <th>:heart:</th>
-    <th>Name</th>
-    <th>Contributions</th></tr>
-  <tr>
     <td>
       <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle&we">
     </td>
