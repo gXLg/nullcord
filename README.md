@@ -41,7 +41,7 @@ List of contributors (special thanks):
 
 <table>
   <tr>
-    <th width="100px">:heart:</th>
+    <th width="500px">:heart:</th>
     <th>Name</th>
     <th>Contributions</th>
   </tr>
