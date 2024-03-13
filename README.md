@@ -40,8 +40,8 @@ List of contributors (special thanks):
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Contributions</th></tr>
+    <th>&nbsp;&nbsp;Name&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;Contributions&nbsp;&nbsp;</th></tr>
   <tr>
     <td>
       <a href="https://github.com/gXLg">/dev/null</a>
