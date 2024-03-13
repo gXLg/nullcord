@@ -50,8 +50,9 @@ Some of the following APIs, especially those
 for searching in large amounts of data support
 a special argument, which will be called `sopt`.
 On how to use it, click the corresponding documentation
-link to see the usage of search options for that
-endpoint.
+link and see the usage of query options for that
+endpoint. The search options may be an optional argument
+for some endpoints.
 
 
 
@@ -71,209 +72,209 @@ await bot.messages.post(channel, message, {
 # Self
 > `bot.self` - working with endpoints from first perspective
 ## Get Current User
-> `getUser()` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#get-current-user)
+> > `getUser()` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#get-current-user)
 
 ## Modify Current User
-> `patchUser(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#modify-current-user)
+> > `patchUser(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#modify-current-user)
 
 ## Get Current User Guilds
-> `listGuilds(sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#get-current-user-guilds)
+> > `listGuilds(sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#get-current-user-guilds)
 
 ## Leave Guild
-> `leaveGuild(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#leave-guild)
+> > `leaveGuild(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#leave-guild)
 
 ## Create Dm
-> `createDM(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#create-dm)
+> > `createDM(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#create-dm)
 
 ## Create Reaction
-> `putReaction(channel, message, reaction)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#create-reaction)
+> > `putReaction(channel, message, reaction)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#create-reaction)
 
 ## Delete Own Reaction
-> `delReaction(channel, message, reaction)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-own-reaction)
+> > `delReaction(channel, message, reaction)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-own-reaction)
 
 ## List Joined Private Archived Threads
-> `listJoinedPrivateArchivedThreads(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-joined-private-archived-threads)
+> > `listJoinedPrivateArchivedThreads(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-joined-private-archived-threads)
 
 ## Modify Current Member
-> `patchMember(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-current-member)
+> > `patchMember(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-current-member)
 
 ## Trigger Typing Indicator
-> `startTyping(channel)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#trigger-typing-indicator)
+> > `startTyping(channel)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#trigger-typing-indicator)
 
 ## Get Current Application
-> `getApp()` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/application#get-current-application)
+> > `getApp()` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/application#get-current-application)
 
 ## Edit Current Application
-> `patchApp(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/application#edit-current-application)
+> > `patchApp(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/application#edit-current-application)
 
 ## Join Thread
-> `joinThread(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#join-thread)
+> > `joinThread(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#join-thread)
 
 ## Leave Thread
-> `leaveThread(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#leave-thread)
+> > `leaveThread(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#leave-thread)
 
 
 
 # Users
 > `bot.users` - working with users in Discord
 ## Get User
-> `get(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#get-user)
+> > `get(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/user#get-user)
 
 
 
 # Commands
 > `bot.commands` - working with global application commands
 ## Get Global Application Commands
-> `list()` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-global-application-commands)
+> > `list()` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-global-application-commands)
 
 ## Create Global Application Command
-> `post(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#create-global-application-command)
+> > `post(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#create-global-application-command)
 
 ## Get Global Application Command
-> `get(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-global-application-command)
+> > `get(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-global-application-command)
 
 ## Edit Global Application Command
-> `patch(id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#edit-global-application-command)
+> > `patch(id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#edit-global-application-command)
 
 ## Delete Global Application Command
-> `del(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#delete-global-application-command)
+> > `del(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#delete-global-application-command)
 
 
 
 # Guild Commands
 > `bot.guildCommands` - working with guild application commands
 ## Get Guild Application Commands
-> `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-guild-application-commands)
+> > `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-guild-application-commands)
 
 ## Create Guild Application Command
-> `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#create-guild-application-command)
+> > `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#create-guild-application-command)
 
 ## Get Guild Application Command
-> `get(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-guild-application-command)
+> > `get(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#get-guild-application-command)
 
 ## Edit Guild Application Command
-> `patch(guild, id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#edit-guild-application-command)
+> > `patch(guild, id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#edit-guild-application-command)
 
 ## Delete Guild Application Command
-> `del(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#delete-guild-application-command)
+> > `del(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#delete-guild-application-command)
 
 
 
 # Messages
 > `bot.messages` - working with messages on Discord
 ## Create Message
-> `post(channel, data, files)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#create-message)
+> > `post(channel, data, files)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#create-message)
 
 ## Get Channel Message
-> `get(channel, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel-message)
+> > `get(channel, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel-message)
 
 ## Edit Message
-> `patch(channel, id, data, files)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#edit-message)
+> > `patch(channel, id, data, files)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#edit-message)
 
 ## Delete Message
-> `del(channel, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-message)
+> > `del(channel, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-message)
 
 ## Get Channel Messages
-> `list(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel-messages)
+> > `list(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel-messages)
 
 
 
 # Channels
 > `bot.channels` - working with channels
 ## Get Channel
-> `get(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel)
+> > `get(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel)
 
 ## Create Guild Channel
-> `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild-channel)
+> > `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild-channel)
 
 ## Modify Channel
-> `patch(id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#modify-channel)
+> > `patch(id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#modify-channel)
 
 ## Deleteclose Channel
-> `del(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#deleteclose-channel)
+> > `del(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#deleteclose-channel)
 
 ## Get Guild Channels
-> `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-channels)
+> > `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-channels)
 
 ## Modify Guild Channel Positions
-> `patchPositions(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-channel-positions)
+> > `patchPositions(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-channel-positions)
 
 
 
 # Invites
 > `bot.invites` - working with guild invites
 ## Get Channel Invites
-> `get(channel)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel-invites)
+> > `get(channel)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-channel-invites)
 
 ## Create Channel Invite
-> `post(channel, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#create-channel-invite)
+> > `post(channel, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#create-channel-invite)
 
 ## Get Guild Invites
-> `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-invites)
+> > `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-invites)
 
 ## Get Guild Vanity Url
-> `vanity(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-vanity-url)
+> > `vanity(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-vanity-url)
 
 
 
 # Pins
 > `bot.pins` - working with message pins
 ## Get Pinned Messages
-> `get(channel)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-pinned-messages)
+> > `get(channel)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-pinned-messages)
 
 ## Pin Message
-> `put(channel, message)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#pin-message)
+> > `put(channel, message)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#pin-message)
 
 ## Unpin Message
-> `del(channel, message)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#unpin-message)
+> > `del(channel, message)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#unpin-message)
 
 
 
 # Threads
 > `bot.threads` - working with thread channels
 ## Start Thread From Message
-> `startFrom(channel, message, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#start-thread-from-message)
+> > `startFrom(channel, message, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#start-thread-from-message)
 
 ## Start Thread Without Message
-> `startNew(channel, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#start-thread-without-message)
+> > `startNew(channel, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#start-thread-without-message)
 
 ## List Public Archived Threads
-> `listPublicArchived(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-public-archived-threads)
+> > `listPublicArchived(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-public-archived-threads)
 
 ## List Private Archived Threads
-> `listPrivateArchived(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-private-archived-threads)
+> > `listPrivateArchived(channel, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-private-archived-threads)
 
 ## List Active Guild Threads
-> `listActive(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#list-active-guild-threads)
+> > `listActive(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#list-active-guild-threads)
 
 
 
 # Thread Members
 > `bot.threadMembers` - working with members in thread channels
 ## Add Thread Member
-> `put(thread, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#add-thread-member)
+> > `put(thread, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#add-thread-member)
 
 ## Remove Thread Member
-> `del(thread, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#remove-thread-member)
+> > `del(thread, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#remove-thread-member)
 
 ## Get Thread Member
-> `get(thread, id, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-thread-member)
+> > `get(thread, id, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-thread-member)
 
 ## List Thread Members
-> `list(thread, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-thread-members)
+> > `list(thread, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-thread-members)
 
 
 
 # Interactions
 >  `bot.interactions` - working with webhook based interactions endpoint
 ## Get Original Interaction Response
-> `getOriginal(token)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#get-original-interaction-response)
+> > `getOriginal(token)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#get-original-interaction-response)
 
 ## Edit Original Interaction Response
-> `patch(token, message, files)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#edit-original-interaction-response)
+> > `patch(token, message, files)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#edit-original-interaction-response)
 
 ## Delete Original Interaction Response
-> `del(token)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#delete-original-interaction-response)
+> > `del(token)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#delete-original-interaction-response)
 
 
 
@@ -283,136 +284,136 @@ await bot.messages.post(channel, message, {
 
 All the endpoints here refer to a single entry in the Discord docs:
 [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#responding-to-an-interaction)
-> `defer(id, token, message)`
-> `post(id, token, message, files)`
+> > `defer(id, token, message)`
+> > `post(id, token, message, files)`
 
 
 
 # Bans
 > `bot.bans` - managing guild bans
 ## Get Guild Bans
-> `list(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-bans)
+> > `list(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-bans)
 
 ## Get Guild Ban
-> `get(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-ban)
+> > `get(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-ban)
 
 ## Create Guild Ban
-> `put(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild-ban)
+> > `put(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild-ban)
 
 ## Remove Guild Ban
-> `del(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#remove-guild-ban)
+> > `del(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#remove-guild-ban)
 
 
 
 # Members
 > `bot.members` - working with guild members on Discord
 ## Get Guild Member
-> `get(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-member)
+> > `get(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-member)
 
 ## List Guild Members
-> `list(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#list-guild-members)
+> > `list(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#list-guild-members)
 
 ## Remove Guild Member
-> `del(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#remove-guild-member)
+> > `del(guild, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#remove-guild-member)
 
 ## Modify Guild Member
-> `patch(guild, user, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-member)
+> > `patch(guild, user, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-member)
 
 ## Search Guild Members
-> `search(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#search-guild-members)
+> > `search(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#search-guild-members)
 
 
 
 # Reactions
 > `bot.reactions` - working with message reactions
 ## Delete All Reactions
-> `delAll(channel, message)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-all-reactions)
+> > `delAll(channel, message)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-all-reactions)
 
 ## Delete All Reactions For Emoji
-> `delEmoji(channel, message, emoji)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-all-reactions-for-emoji)
+> > `delEmoji(channel, message, emoji)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-all-reactions-for-emoji)
 
 ## Delete User Reaction
-> `delUser(channel, message, emoji, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-user-reaction)
+> > `delUser(channel, message, emoji, user)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-user-reaction)
 
 ## Get Reactions
-> `get(channel, message, emoji, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-reactions)
+> > `get(channel, message, emoji, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#get-reactions)
 
 
 
 # Roles
 > `bot.roles` - manage guild roles
 ## Get Guild Roles
-> `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-roles)
+> > `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-roles)
 
 ## Create Guild Role
-> `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild-role)
+> > `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild-role)
 
 ## Modify Guild Role Positions
-> `patch(guild, id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-role-positions)
+> > `patch(guild, id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-role-positions)
 
 ## Delete Guild Role
-> `del(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#delete-guild-role)
+> > `del(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#delete-guild-role)
 
 ## Modify Guild Role Positions
-> `patchPosition(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-role-positions)
+> > `patchPosition(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-role-positions)
 
 
 
 # Member Roles
 > `bot.memberRoles` - manage roles of guild members
 ## Add Guild Member Role
-> `put(guild, user, role)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#add-guild-member-role)
+> > `put(guild, user, role)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#add-guild-member-role)
 
 ## Remove Guild Member Role
-> `del(guild, user, role)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#remove-guild-member-role)
+> > `del(guild, user, role)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#remove-guild-member-role)
 
 
 
 # Emojis
 > `bot.emojis` - manage guild emojis
 ## List Guild Emojis
-> `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#list-guild-emojis)
+> > `list(guild)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#list-guild-emojis)
 
 ## Get Guild Emoji
-> `get(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#get-guild-emoji)
+> > `get(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#get-guild-emoji)
 
 ## Create Guild Emoji
-> `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#create-guild-emoji)
+> > `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#create-guild-emoji)
 
 ## Modify Guild Emoji
-> `patch(guid, id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#modify-guild-emoji)
+> > `patch(guid, id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#modify-guild-emoji)
 
 ## Delete Guild Emoji
-> `del(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#delete-guild-emoji)
+> > `del(guild, id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#delete-guild-emoji)
 
 
 
 # Prunes
 > `bot.prunes` - manage messafe prunes on a Discord guild
 ## Get Guild Prune Count
-> `get(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-prune-count)
+> > `get(guild, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-prune-count)
 
 ## Begin Guild Prune
-> `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#begin-guild-prune)
+> > `post(guild, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#begin-guild-prune)
 
 
 
 # Guilds
 > `bot.guilds` - working with Discord guilds
 ## Create Guild
-> `post(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild)
+> > `post(data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#create-guild)
 
 ## Get Guild
-> `get(id, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild)
+> > `get(id, sopt)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild)
 
 ## Modify Guild
-> `patch(id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild)
+> > `patch(id, data)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild)
 
 ## Delete Guild
-> `del(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#delete-guild)
+> > `del(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#delete-guild)
 
 ## Get Guild Preview
-> `getPreview(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-preview)
+> > `getPreview(id)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#get-guild-preview)
 
 ## Modify Guild Mfa Level
-> `mfa(id, lvl)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-mfa-level)
+> > `mfa(id, lvl)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-mfa-level)

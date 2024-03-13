@@ -82,7 +82,7 @@ defaults to bot's current logger.
 The default internal logger also provides a function `with` which can be used
 to create a subset of events to be logged. For example, if you want
 to log the creation of bot, when the bot changes shards and when
-the bot is being shut down, you can use
+the bot is being shut down using the default wording, you can use
 ```js
 const internal = defaultLogger.with("creating", "sharding", "shutdown");
 ```

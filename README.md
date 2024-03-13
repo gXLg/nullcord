@@ -35,6 +35,22 @@ already now would be a waste of time.
 
 Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
 
+# Contribution
+List of contributors (special thanks):
+
+|--|--|
+|Name|Contributions|
+|--|--|
+|![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=60&w=60&fit=cover&mask=circle&maxage=7d)[/dev/null](https://github.com/gXLg)|Creator and owner|
+|![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=60&w=60&fit=cover&mask=circle&maxage=7d)[flp5](https://github.com/flp5)|Advices about utils and logging|
+|--|--|
+
+When contributing, please first open an issue and contact me.
+Sometimes I may have uncommited changes in my local repo,
+which could break a pull request.
+I will add you to the list of contributors once the pull request
+is merged or I implemented your changes.
+
 # Related Projects
 * My project [<kbd>coc-bot</kbd>](https://github.com/gXLg/coc-bot) uses an
 up-to-date version of nullcord, the testing of nullcord have been
