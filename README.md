@@ -46,13 +46,13 @@ List of contributors (special thanks):
   </tr>
   <tr>
     <td>
-      <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle&we">
+      <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873?v=4&h=32&w=32&mask=circle&we&a=bottom">
       <a href="https://github.com/gXLg">/dev/null</a>
     </td>
     <td>Creator and owner</td>
   </tr>
   <tr>
-    <td>
+    <td align=center>
       <img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271?v=4&h=32&w=32&mask=circle&we">
       <a href="https://github.com/flp5">flp5</a>
     </td>
