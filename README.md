@@ -39,7 +39,7 @@ Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
 List of contributors (special thanks):
 
 | User | Contributions |
-|--|--|
+|--|:--:|
 | <a title="/dev/null" href="https://github.com/gXLg"><img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873&h=64&mask=circle"></a> | Creator and owner |
 | <a title="flp5" href="https://github.com/flp5"><img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271&h=64&mask=circle"></a> | Advices about utils and logging |
 
