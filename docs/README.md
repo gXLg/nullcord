@@ -56,4 +56,8 @@ the logging system of nullcord
 * [<kbd>Cache</kbd>](06_cache.md) - using the benefits of internal caching
 
 # Changelog
-(not yet released)
+## v3.0.0
+* Official release
+
+# Planned for Future Releases
+* OAuth flow including user endpoints

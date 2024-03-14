@@ -13,7 +13,7 @@
     <tr height=158><td>Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.</td></tr>
   </table>
   <br clear=left>
-  :warning: Work in Progress
+  :partying_face: The library has been finally relased!
 </div>
 
 # Installation
@@ -26,6 +26,7 @@ nullcord has only two dependencies:
 
 # Documentation
 To use the library you can check out the [<kbd>Documentation</kbd>](docs).
+To see examples check out the [<kbd>Examples</kbd>](examples) folder.
 
 # Contribution
 List of contributors (special thanks):
@@ -45,8 +46,10 @@ is merged or I implemented your changes.
 * My project [<kbd>coc-bot</kbd>](https://github.com/gXLg/coc-bot) uses an
 up-to-date version of nullcord, the testing of nullcord have been
 done mainly through this repo
-* Also check out [<kbd>gxlg-utils</kbd>](https://github.com/gXLg/gxlg-utils) which is used in this lib
-* First sketches of nullcord are available in an old [<kbd>hackaton attempt</kbd>](https://github.com/gXLg/documantic-hackaton)
+* Also check out [<kbd>gxlg-utils</kbd>](https://github.com/gXLg/gxlg-utils)
+which is used in this lib
+* First sketches of nullcord are available in my old
+[<kbd>hackaton attempt</kbd>](https://github.com/gXLg/documantic-hackaton)
 
 # For Fun
 Some interesting facts all around nullcord:
