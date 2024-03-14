@@ -1,5 +1,5 @@
 **Discord** •
-[<kbd>Logging →</kbd>](01_initialization.md)
+[<kbd>Logging →</kbd>](01_init.md)
 
 ---
 
