@@ -10,7 +10,7 @@
       <a href="https://www.npmjs.com/package/nullcord" title="Downloads"><img src="https://img.shields.io/npm/dm/nullcord?labelColor=black&color=white"></a>
       <a href="https://gxlg.dev/donate" title="Donate"><img src="https://img.shields.io/badge/Donate-black?logo=paypal&logoColor=%2300BA7F"></a>
     </td></tr>
-    <tr height=158><td>Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.</td></tr>
+    <tr height=158><td>Lightweight Javascript library for Discord API, developed by <code>/dev/null</code>.</td></tr>
   </table>
   <br clear=left>
   :partying_face: The library has been finally relased!
