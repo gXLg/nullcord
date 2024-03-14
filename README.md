@@ -5,11 +5,11 @@
     <tr><td><img src="https://github.com/gXLg/nullcord/assets/65429873/fb229323-62fa-4ffd-bbbc-56f473d3c1b2" width=380 alt="nullcord logo"></td></tr>
   </table>
   <table>
-    <tr height=40><td width=407 align=center>
+    <tr height=50><td width=407 align=center>
       <img src="https://img.shields.io/npm/v/nullcord?style=flat&logo=npm&logoColor=%2300BA7F&labelColor=black&color=white">
       <img src="https://img.shields.io/npm/dm/nullcord?style=flat&labelColor=black&color=white">
     </td></tr>
-    <tr height=168><td>Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.</td></tr>
+    <tr height=158><td>Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.</td></tr>
   </table>
   <br clear=left>
   :warning: Work in Progress
