@@ -1,4 +1,4 @@
-**Discord**
+**Discord** •
 [<kbd>Logging →</kbd>](01_initialization.md)
 
 ---
