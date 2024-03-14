@@ -1,9 +1,19 @@
 # nullcord
-<img src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="100" alt="nullcord logo">
 
-Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.
-
-:warning: Work in Progress
+<div>
+  <table align=left>
+    <tr><td><img src="https://github.com/gXLg/nullcord/assets/65429873/fb229323-62fa-4ffd-bbbc-56f473d3c1b2" width="420" alt="nullcord logo"></td></tr>
+  </table>
+  <table>
+    <tr height=60><td width=447 align=center>
+      <img src="https://img.shields.io/npm/v/nullcord?style=flat&logo=npm&logoColor=%2300BA7F&labelColor=black&color=white">
+      <img src="https://img.shields.io/npm/dm/nullcord?style=flat&labelColor=black&color=white">
+    </td></tr>
+    <tr height=168><td>Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.</td></tr>
+  </table>
+  <br clear=left>
+  :warning: Work in Progress
+</div>
 
 # Installation
 ```sh
@@ -21,7 +31,7 @@ List of contributors (special thanks):
 
 | User | Contributions |
 |--|:--:|
-| <a title="/dev/null" href="https://github.com/gXLg"><img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873&h=64&mask=circle"></a> | Creator and owner |
+| <a title="/dev/null" href="https://github.com/gXLg"><img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/65429873&h=64&mask=circle"> | Creator and owner |
 | <a title="flp5" href="https://github.com/flp5"><img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/156463271&h=64&mask=circle"></a> | Advices about utils and logging |
 
 When contributing, please first open an issue and contact me.
