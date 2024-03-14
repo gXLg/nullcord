@@ -1,5 +1,5 @@
 [<kbd>← Events</kbd>](03_events.md)
-**API**
+• **API** •
 [<kbd>Utils →</kbd>](05_utils.md)
 
 ---
@@ -427,5 +427,5 @@ All the endpoints here refer to a single entry in the Discord docs:
 ---
 
 [<kbd>← Events</kbd>](03_events.md)
-**API**
+• **API** •
 [<kbd>Utils →</kbd>](05_utils.md)

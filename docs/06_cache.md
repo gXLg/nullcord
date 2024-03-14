@@ -1,5 +1,5 @@
 [<kbd>← Utils</kbd>](05_utils.md)
-**Cache**
+• **Cache**
 
 ---
 
@@ -36,4 +36,4 @@ throguh the `USER_UPDATE` event.
 ---
 
 [<kbd>← Utils</kbd>](05_utils.md)
-**Cache**
+• **Cache**

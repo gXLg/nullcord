@@ -127,5 +127,5 @@ An example of a Snowflake is `886924356628930570`.
 
 ---
 
-**Discord**
+**Discord** •
 [<kbd>Logging →</kbd>](01_initialization.md)

@@ -104,5 +104,5 @@ not changing their name or keeping inner structure.
 ---
 
 [<kbd>← Discord</kbd>](00_discord.md)
-**Initialization**
+• **Initialization** •
 [<kbd>Logging →</kbd>](02_logging.md)

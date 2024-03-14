@@ -1,5 +1,5 @@
 [<kbd>← Initialization</kbd>](01_init.md)
-**Logging**
+• **Logging** •
 [<kbd>Events →</kbd>](03_events.md)
 
 ---
@@ -96,5 +96,5 @@ const internal = defaultLogger.with("creating", "sharding", "shutdown");
 ---
 
 [<kbd>← Initialization</kbd>](01_init.md)
-**Logging**
+• **Logging** •
 [<kbd>Events →</kbd>](03_events.md)

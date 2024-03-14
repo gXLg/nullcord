@@ -3,41 +3,18 @@
 
 Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.
 
-This lib is for private use, using in production is (yet) not recommended.
-Plans are to make the lib production ready with v3.0
-(rewriting phase started).
-
-Rewriting:
-* Logging -> internal event based (done) -> object based (done)
-* AutoIntents (done)
-* Better networking request structure (done)
-* SigInt handler -> `gxlg-utils` (done)
-* Search Options parameter (done)
-* Unexpectedly found an even better structure for rate limits! -> rewrite! (done)
-* Docs! ('-';)
-
-:warning: Current repository is preparing
-for the upcoming v3.0 update.
-Some information here is for not-yet-released
-features/functionality, for the released description
-refer to releases on npm.
+:warning: Work in Progress
 
 # Installation
-
-```
+```sh
 npm install nullcord
 ```
-
 nullcord has only two dependencies:
 * `gxlg-utils` - a small library with diffent JSON and Promise utilities
 * `ws` - a library for the websocket connection
 
 # Documentation
-The lib is yet not production ready and is therefore subject to change.
-As already said, v3.0 will make it so far, but documenting everything
-already now would be a waste of time.
-
-Docs writing is in progress, you can check out [<kbd>docs</kbd>](docs).
+To use the library you can check out the [<kbd>Documentation</kbd>](docs).
 
 # Contribution
 List of contributors (special thanks):

@@ -1,5 +1,5 @@
 [<kbd>← API</kbd>](04_api.md)
-**Utils**
+• **Utils** •
 [<kbd>Cache →</kbd>](06_cache.md)
 
 ---
@@ -49,5 +49,5 @@ was errorneous.
 ---
 
 [<kbd>← API</kbd>](04_api.md)
-**Utils**
+• **Utils** •
 [<kbd>Cache →</kbd>](06_cache.md)

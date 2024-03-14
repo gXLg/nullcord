@@ -1,5 +1,5 @@
 [<kbd>← Logging</kbd>](02_logging.md)
-**Events**
+• **Events** •
 [<kbd>Utils →</kbd>](04_api.md)
 
 ---
@@ -76,7 +76,7 @@ const waiters = { };
 bot.events["MESSAGE_CREATE"] = async (data, shard) => {
   const message = data.content.trim().toLowerCase();
   if (message in waiters) {
-    waiters[message](data);
+    waiters[<kbd>message</kbd>](data);
     delete waiters[message];
   }
 };
@@ -169,5 +169,5 @@ bot.events["INTERACTION_CREATE"] = async command => {
 ---
 
 [<kbd>← Logging</kbd>](02_logging.md)
-**Events**
+• **Events** •
 [<kbd>Utils →</kbd>](04_api.md)
