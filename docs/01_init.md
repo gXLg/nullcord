@@ -1,3 +1,9 @@
+[<kbd>← Discord</kbd>](00_discord.md)
+**Initialization**
+[<kbd>Logging →</kbd>](02_logging.md)
+
+---
+
 # Initialization
 Here I explain how to create and register a bot
 using nullcord.
@@ -94,3 +100,9 @@ and methods which will not be documented,
 because they are intended for internal usage.
 You may use them, but no promise about them
 not changing their name or keeping inner structure.
+
+---
+
+[<kbd>← Discord</kbd>](00_discord.md)
+**Initialization**
+[<kbd>Logging →</kbd>](02_logging.md)

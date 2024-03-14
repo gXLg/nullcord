@@ -1,7 +1,4 @@
 # Documentation
-
-WORK IN PROGRESS
-
 Welcome to the official documentation of `nullcord`!
 If you are reading this, I finally overcame
 my laziness and decided to make a big step further.
@@ -12,14 +9,15 @@ To install `nullcord` you can simply use `npm`:
 npm install nullcord
 ```
 either globally or locally in your project.
-You can as well just download it direclty
-from GitHub, but this is not recommended
-since some updates can be in GitHub
-before I test them and publish to npm.
+
+Downloading directly from GitHub is not
+recommended as I might commit breaking changes
+in between two releases without even documenting it.
 
 ## nullcord
-`nullcord` is a lightweight discord bot library
-oriented on simplicity, minimalism and stability.
+`nullcord` is a lightweight javascript library
+for Discord bots oriented on simplicity,
+minimalism and stability.
 
 With that in mind, I developed the library in a fully
 functional way but did not include some features,

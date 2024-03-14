@@ -1,3 +1,9 @@
+[<kbd>← Events</kbd>](03_events.md)
+**API**
+[<kbd>Utils →</kbd>](05_utils.md)
+
+---
+
 # API
 Here is a small guide on
 how to use nullcord's API.
@@ -417,3 +423,9 @@ All the endpoints here refer to a single entry in the Discord docs:
 
 ## Modify Guild Mfa Level
 > > `mfa(id, lvl)` - [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-mfa-level)
+
+---
+
+[<kbd>← Events</kbd>](03_events.md)
+**API**
+[<kbd>Utils →</kbd>](05_utils.md)

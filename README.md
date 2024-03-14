@@ -1,7 +1,7 @@
 # nullcord
 <img src="https://github.com/gXLg/nullcord/assets/65429873/f3408aaf-1d49-428a-ae6f-5a6755c3c5cc" height="100" alt="nullcord logo">
 
-Lightweight discord library developed by <code>/dev/null</code>.
+Lightweight Javascript library for Dicord API, developed by <code>/dev/null</code>.
 
 This lib is for private use, using in production is (yet) not recommended.
 Plans are to make the lib production ready with v3.0
@@ -27,6 +27,10 @@ refer to releases on npm.
 ```
 npm install nullcord
 ```
+
+nullcord has only two dependencies:
+* `gxlg-utils` - a small library with diffent JSON and Promise utilities
+* `ws` - a library for the websocket connection
 
 # Documentation
 The lib is yet not production ready and is therefore subject to change.

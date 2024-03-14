@@ -1,3 +1,8 @@
+**Discord**
+[<kbd>Logging →</kbd>](01_initialization.md)
+
+---
+
 # Discord
 Here I explain how Discord handles things
 and how this is connected to nullcord.
@@ -34,7 +39,7 @@ some limitations about the frequency. Discord
 creates buckets for different endpoints and
 each bucket receives a number of requests which
 are allowed to make in a specific interval of time.
-Exceeding this limits will get your bot disconnected
+Exceeding these limits will get your bot disconnected
 or after multiple occurences will temporarily
 disable your bot.
 
@@ -119,3 +124,8 @@ in [<kdb>Initialization</kbd>](01_init.md) and [<kdb>Utils</kbd>](05_utils.md).
 A "Snowflake" is the term for an ID on Discord.
 This includes users, channels, guilds, messages and many more.
 An example of a Snowflake is `886924356628930570`.
+
+---
+
+**Discord**
+[<kbd>Logging →</kbd>](01_initialization.md)

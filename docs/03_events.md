@@ -1,3 +1,9 @@
+[<kbd>← Logging</kbd>](02_logging.md)
+**Events**
+[<kbd>Utils →</kbd>](04_api.md)
+
+---
+
 # Events
 Here I explain how to use
 Discord events in nullcord.
@@ -159,3 +165,9 @@ bot.events["INTERACTION_CREATE"] = async command => {
   }
 };
 ```
+
+---
+
+[<kbd>← Logging</kbd>](02_logging.md)
+**Events**
+[<kbd>Utils →</kbd>](04_api.md)

@@ -1,3 +1,9 @@
+[<kbd>← Initialization</kbd>](01_init.md)
+**Logging**
+[<kbd>Events →</kbd>](03_events.md)
+
+---
+
 # Logging
 Here I explain how the logger system
 works in nullcord and how to use
@@ -86,3 +92,9 @@ the bot is being shut down using the default wording, you can use
 ```js
 const internal = defaultLogger.with("creating", "sharding", "shutdown");
 ```
+
+---
+
+[<kbd>← Initialization</kbd>](01_init.md)
+**Logging**
+[<kbd>Events →</kbd>](03_events.md)
