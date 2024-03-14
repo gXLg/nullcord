@@ -21,7 +21,7 @@ Such event callbacks therefore accept two arguments:
 
 `data` is an object representing received data.
 For a list of events and which data you can receive
-check out the [<kdb>Discord dev portal</kbd>](https://discord.com/developers/docs/topics/gateway-events).
+check out the [<kbd>Discord dev portal</kbd>](https://discord.com/developers/docs/topics/gateway-events).
 The events which can not be received are:
 * Hello
 * Resumed

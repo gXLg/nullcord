@@ -118,7 +118,7 @@ specifies which events should be sent over the
 WebSocket connection.
 
 More on how to use intents in nullcord is explained
-in [<kdb>Initialization</kbd>](01_init.md) and [<kdb>Utils</kbd>](05_utils.md).
+in [<kbd>Initialization</kbd>](01_init.md) and [<kbd>Utils</kbd>](05_utils.md).
 
 ## Snowflakes
 A "Snowflake" is the term for an ID on Discord.
