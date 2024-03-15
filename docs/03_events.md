@@ -76,7 +76,7 @@ const waiters = { };
 bot.events["MESSAGE_CREATE"] = async (data, shard) => {
   const message = data.content.trim().toLowerCase();
   if (message in waiters) {
-    waiters[<kbd>message</kbd>](data);
+    waiters[message](data);
     delete waiters[message];
   }
 };
