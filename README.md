@@ -54,7 +54,7 @@ which is used in this lib
 # For Fun
 Some interesting facts all around nullcord:
 * The name should always be written in lowercase
-* The name obviously comes from my nickname `/dev/null` and `discord`
+* The name obviously comes from my nickname `/dev/null` and `Discord`
 * This lib was completely developed on my phone
 ("mobile developer" just got a new meaning, huh?)
 * The internet at my house was/is so bad, that it created a perfect
@@ -64,6 +64,6 @@ environment for debugging connectivity related issues
 * This library got 2 of my testing bots banned, but it's safe
 to use now, I swear!
 * If there would have been an award for the worst structured documentation
-of rate limits, discord would surely receive it. I am so happy, I am through
+of rate limits, Discord would surely receive it. I am so happy, I am through
 with this, it was a nightmare!
 * The logo has been made in Paint in under 5 minutes :D

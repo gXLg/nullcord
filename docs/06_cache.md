@@ -7,9 +7,9 @@
 Here I explain how nullcord caches some values,
 why you could benefit from it and what you have to remember.
 
-Cache isnused internally to speed up things and avoid
+Cache is used internally to speed up things and avoid
 making unnecessary requests. While cache is good,
-younshould not use it directly in your code,
+you should not use it directly in your code,
 instead rely on internal caching when calling endpoints.
 
 # One Time Cache
@@ -31,7 +31,7 @@ Also, if you update the bot application through
 the Discord Developer Portal, changes will not cache
 and you have to restart your bot.
 Changes applied to the user of the bot will be cached
-throguh the `USER_UPDATE` event.
+through the `USER_UPDATE` event.
 
 ---
 

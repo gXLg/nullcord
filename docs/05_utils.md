@@ -15,6 +15,7 @@ const { utils } = require("nullcord");
 
 # Update commands
 > `utils.updateCommands(bot, path)`
+
 Automatically retrieves all current
 commands of the `bot`, deletes old commands,
 updates commands with changed structure
@@ -25,6 +26,7 @@ on [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/ap
 
 # Auto Intents
 > `utils.autoIntents(options) -> Integer`
+
 Automatically calculates required intents.
 The argument `options` is an object with the following
 accepted properties:
@@ -42,6 +44,7 @@ Portal; more about privileged intents can be found in the
 
 # Error Status
 > `utils.errorStatus(response) -> Boolean`
+
 A simple checker for whether a `response` from the API
 contains errors. Returns `true` when the response
 was errorneous.

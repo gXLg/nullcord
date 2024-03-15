@@ -32,7 +32,7 @@ system is sufficient
 * Selfbotting - while it is still possible,
 I advice against it, it can get you banned,
 because this lib uses only bot-specific endpoints
-* Datatypes - any objects returned by discord
+* Datatypes - any objects returned by Discord
 from their API are passed back to the user in their
 original format
 * Object oriented design - the library is
@@ -41,17 +41,17 @@ pretty much already
 
 ## Contents
 In this folder you will find the complete documentation
-of the `nullcord` discord bot library. Please notify me
+of the `nullcord` Discord bot library. Please notify me
 about any errors or inconsistencies in the issues.
 
 The documentation is split into multiple parts like that:
-* [<kbd>Discord</kbd>](00_discord.md) - basic information about discord
+* [<kbd>Discord</kbd>](00_discord.md) - basic information about Discord
 and their way of handling things
 * [<kbd>Initialization</kbd>](01_init.md) - bot setup
 * [<kbd>Logging</kbd>](02_logging.md) - explanation about
 the logging system of nullcord
 * [<kbd>Events</kbd>](03_events.md) - receiving events
-* [<kbd>API</kbd>](04_api.md) - sending requests to discord
+* [<kbd>API</kbd>](04_api.md) - sending requests to Discord
 * [<kbd>Utils</kbd>](05_utils.md) - using the included utils
 * [<kbd>Cache</kbd>](06_cache.md) - using the benefits of internal caching
 
