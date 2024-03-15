@@ -53,13 +53,17 @@ find [<kbd>here</kbd>](https://discord.com/developers/applications)
 ## Methods
 
 ### Ready
-> `bot.ready() -> boolean`
+```js
+bot.ready() -> boolean
+```
 A boolean query which tells
 if all shards of the bot are
 already registered.
 
 ### Login
-> `async bot.login(intents: Integer)`
+```js
+async bot.login(intents: Integer)
+```
 Registers the bot on the WebSocket
 to make it ready to receive events.
 Intents are a bit mask of which events
@@ -91,7 +95,9 @@ are needed, this will be explained on the
 [<kbd>Utils</kbd>](05_utils.md) page.
 
 ### Shards
-> `bot.shards() -> Integer`
+```js
+bot.shards() -> Integer
+```
 Returns the length of currently registered shards.
 
 ## Internal Data
