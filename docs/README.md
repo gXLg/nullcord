@@ -56,6 +56,11 @@ the logging system of nullcord
 * [<kbd>Cache</kbd>](06_cache.md) - using the benefits of internal caching
 
 # Changelog
+## v3.1.0
+* ~~`shards()`~~ -> `shardsCount()`
+* + `guildsCount()`
+* + `autoIntents: options.guilds_count`
+
 ## v3.0.0
 * Official release
 

@@ -44,6 +44,8 @@ to receive the content of messages along with the `MESSAGE_CREATE` event;
 this intent is privileged and has to be enabled in the Developer
 Portal; more about privileged intents can be found in the
 [<kbd>Discord</kbd>](00_discord.md) section of this documentation
+* `guilds_count` - a boolean to specify, if you want to be able to count
+guilds internally, this will add the `GUILDS` intent
 
 # Error Status
 ```js

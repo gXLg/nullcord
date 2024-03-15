@@ -94,11 +94,23 @@ to automatically determine which intents
 are needed, this will be explained on the
 [<kbd>Utils</kbd>](05_utils.md) page.
 
-### Shards
+### Shards Count
 ```js
-bot.shards() -> Integer
+bot.shardsCount() -> Integer
 ```
 Returns the length of currently registered shards.
+
+### Guilds Count
+```js
+bot.guildsCount(shard) -> Integer
+```
+Returns the amount of guilds registered on the
+shard with index `shard`, or total amount if not specified.
+To use this feature, you have to add the `GUILDS` intent
+manually, else the `GUILD_CREATE` will not be triggered
+and the library cannot keep track of guilds.
+Thisncan also be done using automatic intents from
+the [<kbd>Utils</kbd>](05_utils.md) section.
 
 ## Internal Data
 nullcord has also a lot of fields
