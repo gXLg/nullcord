@@ -3,10 +3,10 @@
   "version": "3.0.2",
   "description": "A lightweight discord bot library",
   "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "dependencies": {
     "gxlg-utils": "^1.2.0",
     "ws": "^8.16.0"
