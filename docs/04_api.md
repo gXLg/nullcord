@@ -39,13 +39,13 @@ Here's an up-to-date list of all groups:
 Every endpoint is an asynchronous function.
 They will always return a JSON. The JSON
 will be one of the following:
-* Empty
+* Empty -
 when Discord returned nothing
-* Data
+* Data -
 when Discord returned the requested data
-* Error
+* Error -
 an error formatted according to Discord's standards
-* Internal error
+* Internal error -
 if you have set `retry` to false, an internal error
 with an error code `-1` can be returned, when your bot breaks a rate-limit,
 a connection error occures etc.
