@@ -37,10 +37,10 @@ However, the first method is preferred.
 
 Arguments:
 1. `token: String` - The token of the bot, which you can
-find [<kbd>here</kbd>](https://discord.com/developers/applications)
+find in the [<kbd>Developer Portal</kbd>](https://discord.com/developers/applications)
 
 2. `options: Object` - including following parameters:
-  * `logger: EventEmitter` - more about logging in
+  * `logger: Object` - more about logging in
   [<kbd>Logging</kbd>](02_logging.md)
   * `internal: Object|'null'|'true'` - an object to look up
   what internal events are to be logged, `true` to

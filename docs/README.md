@@ -58,8 +58,8 @@ the logging system of nullcord
 # Changelog
 ## v3.1.0
 * ~~`shards()`~~ -> `shardsCount()`
-* + `guildsCount()`
-* + `autoIntents: options.guilds_count`
+* +`guildsCount()`
+* +`autoIntents: options.guilds_count`
 
 ## v3.0.0
 * Official release

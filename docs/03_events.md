@@ -170,4 +170,4 @@ bot.events["INTERACTION_CREATE"] = async command => {
 
 [<kbd>← Logging</kbd>](02_logging.md)
 • **Events** •
-[<kbd>Utils →</kbd>](04_api.md)
+[<kbd>API →</kbd>](04_api.md)
