@@ -10,13 +10,16 @@
   const bot = new Bot(token, { "internal": true });
 
   bot.events["INTERACTION_CREATE"] = async data => {
+    // global listener for slash commands
     if (data.type != 2) return;
 
     const embed = { "description": null, "color": 0x069420 };
     const message = { "embeds": [embed], "flags": 64 };
     // flags = 64 - ephermal message
 
+    // open modal after pressing a button
     if (data.data.name == "button") {
+
       const id_0 = Date.now().toString(36);
       embed.description = "Click the button to open the modal!";
       message.components = [{
@@ -76,7 +79,9 @@
 
       await bot.components.post(txt.id, txt.token, message);
 
+    // open modal directly
     } else if (data.data.name == "modal") {
+
       const id_0 = Date.now().toString(36);
       await bot.slash.modal(data.id, data.token, {
         "custom_id": id_0,
