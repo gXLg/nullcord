@@ -14,7 +14,7 @@
   // replace ".." with "nullcord" in actual environment
   const { Bot, utils, consts } = require("..");
   // after v2.6:
-  const bot = new Bot(token, { "internal": true});
+  const bot = new Bot(token, { "internal": true });
   // before v2.6:
   //const bot = new ds.Bot(token);
 

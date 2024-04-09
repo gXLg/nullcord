@@ -13,7 +13,6 @@
     <tr height=158><td>Lightweight Javascript library for Discord API, developed by <code>/dev/null</code>.</td></tr>
   </table>
   <br clear=left>
-  :partying_face: The library has been finally relased!
 </div>
 
 # Installation

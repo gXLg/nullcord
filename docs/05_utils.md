@@ -15,15 +15,23 @@ const { utils } = require("nullcord");
 
 # Update commands
 ```js
-async utils.updateCommands(bot, path)
+async utils.updateCommands(bot, commands)
+```
+```js
+async utils.updateGuildCommands(bot, guild, commands)
 ```
 Automatically retrieves all current
 commands of the `bot`, deletes old commands,
 updates commands with changed structure
 and creates new commands.
-The commands configuration is read from `path`.
+If `commands` is an array, the commands configuration
+is read direclty from it, else it is interpreted as
+a path to a JSON file.
 More about commands structure you can find
 on [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/application-commands#application-commands).
+
+For `updateGuildCommands` the argument `guild` is
+the ID of the updated guild.
 
 # Auto Intents
 ```js

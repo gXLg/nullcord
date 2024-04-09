@@ -501,10 +501,19 @@ working with direct responding to a component interaction
 All the endpoints here refer to a single entry in the Discord docs:
 [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/interactions/receiving-and-responding#responding-to-an-interaction)
 ```js
-defer(id, token, message)
+*.defer(id, token, message)
 ```
 ```js
-post(id, token, message, files)
+*.post(id, token, message, files)
+```
+```js
+slash.autocomplete(id, token, complete)
+```
+```js
+slash.modal(id, token, modal)
+```
+```js
+slash.premium(id, token)
 ```
 
 

@@ -56,6 +56,12 @@ the logging system of nullcord
 * [<kbd>Cache</kbd>](06_cache.md) - using the benefits of internal caching
 
 # Changelog
+## v3.2.0
+* +`utils.updateGuildCommands()`
+* +`slash.autocomplete()`
+* +`slash.modal()`
+* +`slash.premium()`
+
 ## v3.1.0
 * ~~`shards()`~~ -> `shardsCount()`
 * +`guildsCount()`
