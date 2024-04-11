@@ -131,13 +131,14 @@ bot.events["INTERACTION_CREATE"] = async command => {
     const message = { "embeds": [embed], "flags": 64 };
 
     embed.description = "Press the button!";
+    const button_id = Date.now().toString(36);
     message.components = [
       {
         "type": 1,
         "components": [
           {
             "type": 2,
-            "custom_id": "button",
+            "custom_id": button_id,
             "style": 1,
             "label": "beep?"
           }
@@ -148,7 +149,7 @@ bot.events["INTERACTION_CREATE"] = async command => {
 
     const res = await bot.listenOnce(
       "INTERACTION_CREATE",
-      c => c.type == 3 && c.message.interaction?.id == command.id,
+      c => c.data?.custom_id == button_id,
       300_000
     );
 
