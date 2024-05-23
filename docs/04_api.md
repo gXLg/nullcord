@@ -320,7 +320,7 @@ patch(id, data)
 ```
 [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#modify-channel)
 
-## Deleteclose Channel
+## Delete/Close Channel
 ```js
 del(id)
 ```
@@ -465,7 +465,8 @@ list(thread, sopt)
 
 
 # Interactions
- `bot.interactions
+```js
+bot.interactions
 ```
 working with webhook based interactions endpoint
 ## Get Original Interaction Response
