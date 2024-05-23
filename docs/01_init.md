@@ -109,7 +109,7 @@ shard with index `shard`, or total amount if not specified.
 To use this feature, you have to add the `GUILDS` intent
 manually, else the `GUILD_CREATE` will not be triggered
 and the library cannot keep track of guilds.
-Thisncan also be done using automatic intents from
+This can also be done using automatic intents from
 the [<kbd>Utils</kbd>](05_utils.md) section.
 
 ## Internal Data
