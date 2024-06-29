@@ -102,7 +102,7 @@
       const txt = await bot.waitForEvent(
         "INTERACTION_CREATE",
         d => d.type == 5 && d.data.custom_id == id_0,
-        300000 // 5 минут ждём, после этого кидает null
+        300000 // wait 5 minutes, after that return null
       );
 
       if (txt == null) {
