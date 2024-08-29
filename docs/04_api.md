@@ -31,7 +31,8 @@ Here's an up-to-date list of all groups:
 * Reactions
 * Member Roles
 * Roles
-* Emojis
+* Guild Emojis
+* Application Emojis
 * Prunes
 * Guilds
 
@@ -129,12 +130,6 @@ delReaction(channel, message, reaction)
 ```
 [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#delete-own-reaction)
 
-## List Joined Private Archived Threads
-```js
-listJoinedPrivateArchivedThreads(channel, sopt)
-```
-[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-joined-private-archived-threads)
-
 ## Modify Current Member
 ```js
 patchMember(guild, data)
@@ -170,6 +165,12 @@ joinThread(id)
 leaveThread(id)
 ```
 [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#leave-thread)
+
+## List Joined Private Archived Threads
+```js
+listJoinedPrivateArchivedThreads(channel, sopt)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/channel#list-joined-private-archived-threads)
 
 
 
@@ -674,9 +675,9 @@ del(guild, user, role)
 
 
 
-# Emojis
+# Guild Emojis
 ```js
-bot.emojis
+bot.guildEmojis
 ```
 manage guild emojis
 ## List Guild Emojis
@@ -699,7 +700,7 @@ post(guild, data)
 
 ## Modify Guild Emoji
 ```js
-patch(guid, id, data)
+patch(guild, id, data)
 ```
 [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#modify-guild-emoji)
 
@@ -711,11 +712,48 @@ del(guild, id)
 
 
 
+# Application Emojis
+```js
+bot.emojis
+```
+manage application emojis
+## List Application Emojis
+```js
+list(application)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#list-application-emojis)
+
+## Get Application Emoji
+```js
+get(application, id)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#get-application-emoji)
+
+## Create Application Emoji
+```js
+post(application, data)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#create-application-emoji)
+
+## Modify Application Emoji
+```js
+patch(application, id, data)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#modify-application-emoji)
+
+## Delete Application Emoji
+```js
+del(application, id)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/emoji#delete-application-emoji)
+
+
+
 # Prunes
 ```js
 bot.prunes
 ```
-manage messafe prunes on a Discord guild
+manage message prunes on a Discord guild
 ## Get Guild Prune Count
 ```js
 get(guild, sopt)

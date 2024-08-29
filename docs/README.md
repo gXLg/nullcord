@@ -56,6 +56,10 @@ the logging system of nullcord
 * [<kbd>Cache</kbd>](06_cache.md) - using the benefits of internal caching
 
 # Changelog
+## v.3.2.5
+* ~~`emojis`~~ -> `guildEmojis`
+* +`emojis` (application emojis)
+
 ## v3.2.0
 * +`utils.updateGuildCommands()`
 * +`slash.autocomplete()`
