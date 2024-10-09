@@ -35,6 +35,7 @@ Here's an up-to-date list of all groups:
 * Application Emojis
 * Prunes
 * Guilds
+* Polls
 
 # Calling
 Every endpoint is an asynchronous function.
@@ -48,8 +49,8 @@ when Discord returned the requested data
 an error formatted according to Discord's standards
 * Internal error -
 if you have set `retry` to false, an internal error
-with an error code `-1` can be returned, when your bot breaks a rate-limit,
-a connection error occures etc.
+with an error code `-1` can be returned, when your bot
+breaks a rate-limit, a connection error occures etc.
 
 All the listed endpoints here are to be called like this:
 ```js
@@ -79,6 +80,46 @@ Example:
 await bot.messages.post(channel, message, {
   "file.png": fs.readFileSync("./pic.png", "binary")
 });
+```
+
+
+
+# New Endpoints
+Whenever Discord releases new endpoints,
+I may be not quick enough to implement it in
+nullcord. When this happens and you *really*
+need to use that endpoint, make sure to open
+an issue and in the meanwhile you can use
+the internal `bot.rest` endpoint. Each request
+has to provide a rate-limit scope. If you are
+not sure, which scope a specific endpoint has,
+just pass `null` and don't make too many calls.
+The rules about the `files` options are the same
+as for regular endpoints.
+
+## GET
+```js
+bot.rest.get(endpoint, scope)
+```
+
+## DELETE
+```js
+bot.rest.del(endpoint, scope)
+```
+
+## PUT
+```js
+bot.rest.put(endpoint, scope)
+```
+
+## POST
+```js
+bot.rest.post(endpoint, scope, jsonBody, files)
+```
+
+## PATCH
+```js
+bot.rest.patch(endpoint, scope, jsonBody, files)
 ```
 
 
@@ -808,6 +849,27 @@ getPreview(id)
 mfa(id, lvl)
 ```
 [<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/guild#modify-guild-mfa-level)
+
+
+
+# Polls
+```js
+bot.polls
+```
+working with poll messages
+## Get Answer Voters
+```js
+voters(channel, message, answer, sopt)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/poll#get-answer-voters)
+
+## End Poll
+```js
+end(channel, message)
+```
+[<kbd>Discord docs</kbd>](https://discord.com/developers/docs/resources/poll#end-poll)
+
+
 
 ---
 

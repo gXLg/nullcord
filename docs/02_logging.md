@@ -80,7 +80,7 @@ to log. Example (from default internal logger):
 This will log when creating a bot using nullcord's `Bot` constructor.
 
 A list of all defined lookups and their default wording can be found
-in the [<kbd>Utils</kbd>](/lib/utils.js#L79) file.
+in the [<kbd>Utils</kbd>](/lib/utils.js#L109) file.
 
 The last argument of each callback is the logger, which when called internally
 defaults to bot's current logger.

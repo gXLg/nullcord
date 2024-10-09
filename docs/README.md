@@ -56,7 +56,10 @@ the logging system of nullcord
 * [<kbd>Cache</kbd>](06_cache.md) - using the benefits of internal caching
 
 # Changelog
-## v.3.2.5
+## v3.3.0
+* +`polls`
+
+## v3.2.5
 * ~~`emojis`~~ -> `guildEmojis`
 * +`emojis` (application emojis)
 
@@ -76,3 +79,12 @@ the logging system of nullcord
 
 # Planned for Future Releases
 * OAuth flow including user endpoints
+* Endpoints for:
+  * SKUs
+  * Activities
+  * Role Connections
+  * Guild Events
+  * Guild Templates
+  * Subscriptions
+  * Sticker
+* Audit Logs, endpoints and reasons
