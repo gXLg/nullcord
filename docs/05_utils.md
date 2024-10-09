@@ -63,6 +63,17 @@ A simple checker for whether a `response` from the API
 contains errors. Returns `true` when the response
 was errorneous.
 
+# Paginate
+```js
+utils.paginate(api, idGetter, limit)
+```
+A getter for paginated content. Performs
+the `api` request and sets the `last` option
+to the maximal id from the results, using the `idGetter`.
+Optionally, you can provide `limit`, which will limit
+the amount of returned data per one request.
+Returns all the data collected from the endpoint.
+
 ---
 
 [<kbd>← API</kbd>](04_api.md)
