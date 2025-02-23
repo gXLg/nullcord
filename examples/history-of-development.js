@@ -37,7 +37,7 @@
     bot.logger.sinfo(data.shard[0], "Got ready!");
 
     // execute this when all shards ready
-    if(bot.ready()){
+    if (bot.ready()) {
 
       bot.setStatus({
         "status": "online",
@@ -54,7 +54,7 @@
       bot.logger.info("All shards activated");
 
       /* in v2.0.0: shards!
-      for(let i = 0; i < count; i ++){
+      for (let i = 0; i < count; i ++) {
         bot.setStatus({
           "status" : "online",
           "since" : 0,
@@ -81,8 +81,8 @@
   };
 
   bot.events["INTERACTION_CREATE"] = async data => {
-    if(data.data.name == "badge"){
-      if(data.member.user.id == "557260090621558805"){
+    if (data.data.name == "badge") {
+      if (data.member.user.id == "557260090621558805") {
         await bot.slash.post(data.id, data.token, {
           "content": ":frog: Enjoy your badge!"
         });

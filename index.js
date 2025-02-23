@@ -4,4 +4,4 @@ const consts = require("./lib/consts.js");
 
 const { name, version } = require("./package.json");
 
-module.exports = { Bot, utils, consts, "package": { name, version }};
+module.exports = { Bot, utils, consts, "package": { name, version } };

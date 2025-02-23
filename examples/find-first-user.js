@@ -15,7 +15,7 @@
   });
 
   // last saved id to scan
-  let id = 696536n;
+  let id = 698118n;
 
   for (const token of tokens) {
     (async () => {
@@ -23,7 +23,7 @@
       while (cycle) {
         const res = await bot.users.get(id << 22n);
 
-        if(res.code == 10013) {
+        if (res.code == 10013) {
           bot.logger.warn("Nope:", id);
           id ++;
         } else if (res.code == 0) {

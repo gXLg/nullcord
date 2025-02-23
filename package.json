@@ -8,8 +8,8 @@
     "lib"
   ],
   "dependencies": {
-    "gxlg-utils": "^1.2.0",
-    "ws": "^8.18.0"
+    "gxlg-utils": "^1.4.0",
+    "ws": "^8.18.1"
   },
   "scripts": {
     "test": "node bot.js"
