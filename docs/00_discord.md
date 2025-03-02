@@ -1,5 +1,5 @@
 **Discord** •
-[<kbd>Logging →</kbd>](01_init.md)
+[<kbd>Initialization →</kbd>](01_init.md)
 
 ---
 
@@ -128,4 +128,4 @@ An example of a Snowflake is `886924356628930570`.
 ---
 
 **Discord** •
-[<kbd>Logging →</kbd>](01_init.md)
+[<kbd>Initialization →</kbd>](01_init.md)

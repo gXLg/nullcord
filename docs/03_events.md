@@ -122,7 +122,7 @@ for them responding to the output by for example clicking
 buttons:
 ```js
 bot.events["INTERACTION_CREATE"] = async command => {
-  if(command.type != 2) return;
+  if (command.type != 2) return;
   const name = command.data.name;
   bot.logger.info("Executing command", name);
 
